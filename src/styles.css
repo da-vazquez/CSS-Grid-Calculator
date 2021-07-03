@@ -1,0 +1,134 @@
+.container {
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 4%;
+  padding: 45px 20px;
+  border-radius: 18px;
+  display: grid;
+  max-height: 800px;
+  max-width: 600px;
+  background-color: grey;
+  box-shadow: 5px 25px 25px 5px black;
+  grid-gap: 12px;
+  grid-template-areas:
+    "wrapper wrapper wrapper wrapper"
+    "clear divide multiply subtract"
+    "seven eight nine add"
+    "four five six add"
+    "one two three enter"
+    "zero zero period enter";
+  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container > * {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 1px 5px 10px blue;
+}
+
+.container > div:hover {
+  background-color: white;
+  color: black;
+  transition: 500ms;
+}
+
+.result-wrapper {
+  grid-area: wrapper;
+  margin-bottom: 0.5em;
+  background-color: white !important;
+  color: black;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0.5em;
+  overflow: hidden;
+}
+
+.result-p {
+  transform: scale(120%);
+  transition: 1000ms;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.clear {
+  grid-area: clear;
+  background-color: red;
+  opacity: 70%;
+}
+
+.divide {
+  grid-area: divide;
+}
+
+.multiply {
+  grid-area: multiply;
+}
+
+.subtract {
+  grid-area: subtract;
+}
+
+.add {
+  grid-area: add;
+}
+
+.enter {
+  grid-area: enter;
+  background-color: red;
+  padding: 10px;
+  opacity: 70%;
+}
+
+.period {
+  grid-area: period;
+}
