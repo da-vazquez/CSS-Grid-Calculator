@@ -1,4 +1,5 @@
 # CSS-Grid-Calculator
 Created with CodeSandbox
 
-![image](https://user-images.githubusercontent.com/71048973/124337666-a6faee80-db58-11eb-8800-1583415a3692.png)
+
+![image](https://user-images.githubusercontent.com/71048973/124337716-ddd10480-db58-11eb-96b7-f9f85b5a1fd9.png)
